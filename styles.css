@@ -1,0 +1,82 @@
+body {
+    color: rgb(255, 255, 255);
+    background: black;
+margin: 0px;
+margin-bottom: 100px;
+}
+
+header {font-family: "Abril Fatface", system-ui;
+    border-bottom: solid 2px rgb(0, 0, 0);
+padding: 20px;
+font-size: 32px;
+color: rgb(255, 255, 255);
+}
+
+
+.chamada {font-family: "Roboto Slab", system-ui;
+    background:  rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+h1{
+    font-size: 48px;
+}
+
+p{
+    font-size: 30px;
+}
+img{
+    height: 200px;
+}
+
+
+.categoria-videos{
+    display: flex;
+overflow-x: auto;
+gap: 10px;
+}
+
+.redação {font-family: "Roboto Slab", system-ui;
+    background:  rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+opacity: 1.0;
+border: 2px solid rgb(233, 233, 240);
+}
+
+.categoria h2{
+    color:rgb(235, 236, 238) ;
+}
+.categoria h4{
+    background:  rgb(0, 0, 0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
